@@ -15,7 +15,7 @@ int main(){
   char concatInput[81];
   int i = 0;
   while(input[i] != '\0'){
-    if(input[i] > 0 && input[i] < 10){
+    if(input[i] > 47 && input[i] < 58){
       concatInput[length] = input[i];
       i++;
       //cout << "char " << concatInput[length] << " added at " << i << endl;
